@@ -1,0 +1,60 @@
+#! SiteMinder Version 12.7
+# Export Flags: Clear Text, Export Keys, Export Key store data.
+objectclass: Root
+Oid: 0a-00000000-0000-0000-0000-000000000000
+AgentTypes: 
+Schemes: 
+Agents: 
+AgentGroups: 
+UserDirectories: 
+Domains: 
+Admins: 
+AuthAzMaps: 
+CertMaps: 
+SelfRegs: 
+ODBCQueries: 
+PasswordPolicies: 
+KeyManagement: 1a-fa347804-9d33-11d3-8025-006008aaae5b
+AgentKeys: 1b-3fb42be0-f765-451e-b297-173e88e97197, 1b-ed2c0eb2-2b2a-456b-9388-484c8908a5bf, 1b-80fab821-5f13-4311-9c45-23b26bd0cb60, 1b-3f65ce31-b699-4d3d-bc46-c14be32434c5
+RootConfig: 
+VariableTypes: 
+PropertyCollections: 
+TaggedStrings: 
+TrustedHosts: 
+IMSDirectories: 
+IMSEnvironments: 
+IMSOptionLists: 
+SharedSecretPolicy: 
+IMS6Directories: 
+IMS6Environments: 
+
+objectclass: KeyManagement
+Oid: 1a-fa347804-9d33-11d3-8025-006008aaae5b
+IsEnabled: false
+ChangeFrequency: 0
+ChangeValue: 0
+NewKeyTime: 0
+OldKeyTime: 0
+FireHour: 0
+PersistentKey: 0fi+MgatDD0jpUS7oXC2ovpY4VJskj19
+
+objectclass: AgentKey
+Oid: 1b-3fb42be0-f765-451e-b297-173e88e97197
+KeyMarker: 4
+Key: JfClBZo4Bu9yoM+wvpMcX8H29ugquPEN
+
+objectclass: AgentKey
+Oid: 1b-ed2c0eb2-2b2a-456b-9388-484c8908a5bf
+KeyMarker: 1
+Key: JfClBZo4Bu9yoM+wvpMcX8H29ugquPEN
+
+objectclass: AgentKey
+Oid: 1b-80fab821-5f13-4311-9c45-23b26bd0cb60
+KeyMarker: 2
+Key: JfClBZo4Bu9yoM+wvpMcX8H29ugquPEN
+
+objectclass: AgentKey
+Oid: 1b-3f65ce31-b699-4d3d-bc46-c14be32434c5
+KeyMarker: 3
+Key: JfClBZo4Bu9yoM+wvpMcX8H29ugquPEN
+
